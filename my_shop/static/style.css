@@ -1,0 +1,111 @@
+
+ html, body{
+    height: 100%
+    max-height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #edeef0;
+ }
+
+ .section-top{
+    /*background-image: url("img/f3ea611f5902.jpg");*/
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    /*top: 30%;
+    left: 30%;
+    margin-right: auto;
+    transform: translate(-30%, -30%)*/
+    height: 400px;
+    /*mergin: 20px;*/
+ }
+
+ .product_item{
+    /*background-image: url("img/f3ea611f5902.jpg");*/
+    height: 350px;
+    background-color: white;
+    border: 2px solid lightgrey;
+    position: relative;
+    padding: 10px 0 10px 0;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-family: 'DejaVu Sans Mono', monospace;
+    text-align: center;
+    /*display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    color: white;
+    border: 2px solid aqua;*/
+ }
+
+ .add-to-card-btn{
+   position: absolute;
+   /*margin-bottom: 5px;*/
+   margin-left: 20%;
+   margin-right: 20%;
+   bottom: 15px;
+   /*left: 50px;*/
+ }
+
+ /*.text-center{
+    font: italic "Fira Sans";
+    font-width: bold;
+    color: lightgrey;
+ }*/
+
+.discount-container{
+   position: absolute;
+   top: 35%;
+   background: #55e073;
+   width: 30%;
+   color: white;
+   font-width: bold;
+   padding: 3px;
+   /*bottom: 15px;
+   left: 50px;*/
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: auto;
+    /*padding-bottom: 180px;*/
+}
+
+.footer{
+    position: relative;
+   /* margin-top: -180px;
+    height: 180px;*/
+    clear: both;
+    }
+
+.navbar-expand-lg{
+    min-height: 5px;
+    height: 5px;
+    background-color: black;
+}
+
+.basket-container{
+    position: relative;
+    width: 200px;
+    padding: 15px 10px;
+}
+
+.basket-items{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    background-color: grey;
+    z-index: 10;
+    padding: 10px;
+}
+
+.text_under_order{
+    font: italic "Fira Sans";
+    font-width: bold;
+    color: darkblue;
+    text-align: end;
+}
+
+.form-errors{
+    color: red;
+}

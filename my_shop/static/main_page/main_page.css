@@ -1,0 +1,24 @@
+
+ .top-container{
+    padding-top: 2%;
+    color: white;
+ }
+.general-container{
+    height: 900px;
+    background-image: url("img/bg.jpg");
+    }
+
+.title{
+    color: white;
+    text-align: center;
+    }
+
+.btn-orange{
+    background-color: #ff8300;
+    border: none;
+}
+
+.btn-orange:hover{
+    background-color: #d95725;
+    border: none;
+}

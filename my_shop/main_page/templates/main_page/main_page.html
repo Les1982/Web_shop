@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'main_page.css' %}">
+
+
+</head>
+<body>
+    <div class="general-container">
+        <div class="container top-container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="title">Наш магазин скоро откроется</h1>
+                    <h1 class="title">Оставьте вашу почту в форме ниже</h1>
+                    <div>
+                        <form action="" method="post" class="form-inline text-center">{% csrf_token %}
+                            <div class="form-group">
+                                <label>Ваше имя: </label>
+                                {{ form.name}}
+
+                                <label>ваша почта: </label>
+                                {{ form.email}}
+
+                                <button type="submit" class="btn btn-primary btn-orange">Сохранить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
